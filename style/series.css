@@ -1,0 +1,64 @@
+
+.series-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,.50)),url('/img/Loki-1-1366x450.jpg');
+
+    height: 460px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.series-principal .titulo-series{
+    margin-top: 10%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.series-principal .descricao-series{
+    margin-top: 3%;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container-series{
+    margin-left: 20px;
+
+}
+
+.series-principal .container-series{
+    width: 80%;
+}
+
+.botao-series{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+.botao-series:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrossel-series{
+    margin-top: 5px;
+}
